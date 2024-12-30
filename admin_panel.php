@@ -175,6 +175,11 @@ $result = $conn->query($sql);
             <option value="Engagement Makeup" <?= $filter_category == 'Engagement Makeup' ? 'selected' : '' ?>>Engagement MakeUp</option>
             <option value="Nature Makeup" <?= $filter_category == 'Nature Makeup' ? 'selected' : '' ?>>Nature MakeUp</option>
             <option value="HD Makeup" <?= $filter_category == 'HD Makeup' ? 'selected' : '' ?>>HD MakeUp</option>
+            <option value="Smookey Makeup" <?= $filter_category == 'Smookey Makeup' ? 'selected' : '' ?>>Eye Makeup</option>
+            <option value="Eye Makeup" <?= $filter_category == 'Eye Makeup' ? 'selected' : '' ?>>Smookey Makeup</option>
+            <option value="Hair Styling" <?= $filter_category == 'Hair Styling' ? 'selected' : '' ?>>Hair Styling</option>
+            <option value="Smookey Makeup" <?= $filter_category == 'Fashion Makeup' ? 'selected' : '' ?>>Fashion Makeup</option>
+            <option value=" Makeup" <?= $filter_category == 'Fashion Makeup' ? 'selected' : '' ?>>Fashion Makeup</option>
         </select>
         <button type="submit">Filter</button>
     </form>
